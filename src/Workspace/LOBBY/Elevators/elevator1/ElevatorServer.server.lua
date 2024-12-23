@@ -1,3 +1,5 @@
+-- this is elevator1
+
 local players = game:GetService("Players")
 local replicatedstorage = game:GetService("ReplicatedStorage")
 local tpService = game:GetService("TeleportService")
@@ -22,7 +24,7 @@ local function Setup()
 end
 
 local function teleportPlayers()
-	local placeId = 94330423712825
+	local placeId = 112277089163916
 	local server = tpService:ReserveServer(placeId)
 	local options = Instance.new("TeleportOptions")
 	options.ReservedServerAccessCode = server
